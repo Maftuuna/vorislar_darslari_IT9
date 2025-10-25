@@ -23,3 +23,4 @@ print(nomi4)
 
 nomi5=("Madina qachon menga gul berasan?")
 print(nomi5)
+print()
