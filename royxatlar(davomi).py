@@ -40,21 +40,23 @@ Tuple() ozgarmas royhat
 # print(sum(sonlar3))
 
 
-davlat = ["Uzbekiston","Braziliya","Turkiya","Korea","Amerika","Ispaniya"]
+#davlat = ["Uzbekiston","Braziliya","Turkiya","Korea","Amerika","Ispaniya"]
 
 
-country = davlat[:]
+# = davlat[:]
 
-print("country nomli royxat:",country)
-print("davlat nomli royxat:",davlat)
+#print("country nomli royxat:",country)
+#print("davlat nomli royxat:",davlat)
 
-country.insert(0,"Istanbul")
-print(country)
+#ountry.insert(0,"Istanbul")
+#rint(country)
 
 
-toqsonlar = list(range(1,24,2))
-print("Asl korinishi:",toqsonlar)
-print("1 dan 7 gacha : ",toqsonlar[0:4])
-print(toqsonlar[:])
+#toqsonlar = list(range(1,24,2))
+#print("Asl korinishi:",toqsonlar)
+#print("1 dan 7 gacha : ",toqsonlar[0:4])
+#print(toqsonlar[:])
+
+
 
 
