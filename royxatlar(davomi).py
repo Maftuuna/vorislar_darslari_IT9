@@ -59,4 +59,23 @@ Tuple() ozgarmas royhat
 
 
 
+# Tuple o'zgarmas royxat 
+ismlar = ["matluba","maftuna"]     #oddiy royxat
+familiyalar = ("ollayorova","madaminova")   # ozgarmas royxat (tuple)
 
+print("Oddiy royxat :",ismlar)
+print("O'zgarmas royxat (tuple):",familiyalar)
+
+ismlar.append("mohinur")
+print(ismlar)
+familiyalar.append("sapoyeva") # xatolik beradi, tuple ga yangi elment qoshib bolmaydi
+print(familiyalar)
+
+o_familiya = list(familiyalar)
+
+print(o_familiya)
+o_familiya.append("sapoyeva")
+print(o_familiya)
+
+familiyalar = tuple (o_familiya)
+print(familiyalar)
