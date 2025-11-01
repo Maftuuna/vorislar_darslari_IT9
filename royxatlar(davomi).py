@@ -80,12 +80,39 @@ Tuple() ozgarmas royhat
 # familiyalar = tuple (o_familiya)
 # print(familiyalar)
 
+#  davlatlar = ["Uzbekiston","Turkiya","Korea","Amerika","Angliya","Braziliya"]
+#  print(davlatlar)
+
+# sorted(davlatlar)
+# print(davlatlar)
+ 
+# davlatlar.sort(reverse=True)
+# print(davlatlar)
+
+# davlatlar.sort(reverse=False)
+# print(davlatlar)
+
+
+# juftsonlar = list(range(120,1200,2))
+# print("Asl korinishi:",juftsonlar)
+
 
 davlatlar = ["Uzbekiston","Turkiya","Korea","Amerika","Angliya","Braziliya"]
 print(davlatlar)
 
-davlatlar.sort(reverse=True)
+print(f"Royxatdagi davlatlar soni : {len(davlatlar)} ga teng")
+
+print(f"Davlatlarning tartiblangan korinishi : {sorted (davlatlar)}")
+
+print(f"Davlatlarning  teskari tartiblangan korinishi : {sorted (davlatlar,reverse = True)}")
+
+davlatlar.reverse()
 print(davlatlar)
 
-davlatlar.sort(reverse=False)
-print(davlatlar)
+davlatlar.sort()
+print(f"Alifbo boiyicha tartiblangan royxat : {davlatlar}")
+
+davlatlar.sort(reverse= True)
+print(f"Alifbo boiyicha  teskari tartiblangan royxat : {davlatlar}")
+
+
