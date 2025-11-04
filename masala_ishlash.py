@@ -20,3 +20,10 @@
 # for i in range(a,b+1):
 #     yigindi += i
 # print(f"{a} dan {b} gacha sonlar yig'indisi: {yigindi}")
+# To'rtinchi masala. n butun son berilgan (n > 0). 1 dan n gacha bo'lgan barcha toq sonlar kvadratlari yig'indisini hisoblovchi programma tuzilsin.
+n = int(input(" n sonini kiriting : "))
+yigindi = 0
+for i in range(1,n+1):
+    if i % 2 != 0:
+        yigindi += i**2
+print(f"1 dan {n} gacha toq sonlar kvadratlari yig'indisi: {yigindi}")
