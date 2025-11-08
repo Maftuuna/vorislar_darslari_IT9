@@ -12,7 +12,7 @@
 # for i in range(a,b+1):
 #    son += 1 #son = son +1
 #    print(i)
-# print(f"{a} dan {b} gacha {son} ta son bor")
+ #print(f"{a} dan {b} gacha {son} ta son bor")
 # Uchinchi masala. a va b butun sonlari berilgan(a < b). a va b sonalri orasidagi barcha butun sonlar yig'indisini hisoblovchi programma tuzilsin.(a va b ham chiqsin)
 # a = int(input(" a sonini kiriting : "))
 # b = int(input(" b sonini kiriting : "))
@@ -30,3 +30,25 @@
 
 
 
+# Beshinchi masala. Bir kg konfetning narxiberilgan(haqiqiy son).1,2,3,....10 kg konfetning narxini chiqaruvchi  programma tuzilsin.
+# narx = float(input("Bir kg konfetning narxini kiriting: "))
+# for i in range(1, 11):
+#     print(f"{i} kg konfet narxi: {i * narx}")
+ 
+# Oltinchi masala.Bir kg konfetning narxiberilgan(haqiqiy son) 0.1,0.2,0.3,...1 kg konfetning narxini chiqaruvchi  programma tuzilsin.
+# narx = float(input("Bir kg konfetning narxini kiriting: "))
+# for i in range(1, 11):
+#     kg = i / 10
+#     print(f"{kg} kg konfet narxi: {kg * narx}") 
+# Yetinchi maasala.Bir kg konfetning narxiberilgan(haqiqiy son) 1.2,1.3,1.4,...2 kg konfetning narxini chiqaruvchi  programma tuzilsin.
+# narx = float(input("Bir kg konfetning narxini kiriting: "))
+# for i in range(12, 21):
+#     kg = i / 10
+#     print(f"{kg} kg konfet narxi: {kg * narx}")
+#  Sakkizinchi masala. a va b butun sonlari berilgan (a>b). a dan b gacha bo;lgan barcha butun sonlarn yigindisini chiqaruvchi programma tuzilsin.
+# a = int(input(" a sonini kiriting : "))
+# b = int(input(" b sonini kiriting : "))
+# yigindi = 0
+# for i in range(b, a + 1):
+#     yigindi += i
+# print(f"{a} dan {b} gacha sonlar yig'indisi: {yigindi}")
