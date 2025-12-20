@@ -66,6 +66,7 @@ talaba11={
     "familiya" :"madaminova",
     "maktab":"1-sonli maktab",
     "qiziqishlari":"IT darslar,ingliz tili,fizika",
+    "sinf":'9 - A sinf',
 }
 talaba12={
     "ism":"matluba",
@@ -98,4 +99,11 @@ malumot_tiplari= {
 }
 
 
-print(talaba12.familiya.title())
+
+print (talaba11 ['ism'].title())
+print (talaba11 ['familiya'].title())
+print (talaba11 ['maktab'])
+print (talaba11 ['qiziqishlari'].title())
+print (talaba11 ['sinf'])
+
+

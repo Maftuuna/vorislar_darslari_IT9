@@ -30,3 +30,4 @@ sonlar = list (range(27,54,7))
 for son in sonlar:
   sonlar2.append(son**4) 
 print(f"4-darajaga oshan royhat{sonlar2}")
+print(type(True+1))
